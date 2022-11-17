@@ -101,7 +101,7 @@ buttons = [
             text="✚ Add Bot To Your Group ✚", url=f"https://t.me/{bu}?startgroup=new"),
     ],
     [
-        InlineKeyboardButton(text="Owner Bot", url="tg://openmessage?user_id=876054262"),
+        InlineKeyboardButton(text="Owner Bot", url="tg://openmessage?user_id=5658910455"),
         InlineKeyboardButton(text=f"About Info", callback_data="emiko_"),
     ],
     [
@@ -375,7 +375,7 @@ def emiko_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Notes", callback_data="emiko_notes"),
-                    InlineKeyboardButton(text="Owner Bot", url="tg://openmessage?user_id=876054262"),
+                    InlineKeyboardButton(text="Owner Bot", url="tg://openmessage?user_id=5658910455"),
                  ],
                  [
                     InlineKeyboardButton(text="Forward Bot", url="http://t.me/cloner_xbot"),
@@ -425,8 +425,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                [
                  [
-                    InlineKeyboardButton(text="Support Group", url="https://t.me/havingsexid"),
-                    InlineKeyboardButton(text="Support Channel", url="https://t.me/skymusicku"),
+                    InlineKeyboardButton(text="Support Group", url="https://t.me/Awas_Tegangan"),
+                    InlineKeyboardButton(text="Support Channel", url="https://t.me/gbtnyaOtan"),
                  ],
                  [
                     InlineKeyboardButton(text="◀️ Back", callback_data="emiko_"),
@@ -452,13 +452,13 @@ def Source_about_callback(update, context):
             "\n\n✗ *Command for all members.*"
             "\n • `/play` - play musik via search youtube."
             "\n • `/playlist` - untuk melihat daftar antrean" 
-            "\n\n✗ *Pᴏᴡᴇʀᴇᴅ ☕ By : @slidBarbar!*",
+            "\n\n✗ *Pᴏᴡᴇʀᴇᴅ ☕ By : @about_db!*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                     InlineKeyboardButton(text="Cmd For Music", url=f"https://t.me/{bu}?start=help_pecandu_suarabot"),
+                     InlineKeyboardButton(text="Cmd For Music", url=f"https://t.me/{bu}?start=help_xdmusik_bot"),
                      InlineKeyboardButton(text="◀️ Back", callback_data="source_back"),
                  ]
                 ]
